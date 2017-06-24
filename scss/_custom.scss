@@ -46,6 +46,7 @@
     /*filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#0ff9cF', endColorstr='#6abd46', GradientType=1);
     /* ie6-9 */
 }
+.fondoverde {background: $Verde;}
 
 /* Values
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
@@ -172,4 +173,9 @@
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+}
+ /* footer section*/
+.footer_section{
+  padding: 5rem 0 5rem;
+
 }

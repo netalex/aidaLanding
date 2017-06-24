@@ -15,38 +15,33 @@
   margin-bottom: 1.2rem;
 }
 
+
 /* Hero
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
+.hero{
+  color: #fff;
+}
 .video {
   position: relative;
 }
-  .hero-heading-big{
-    font-weight: 100;
-  }
 
-.gradient {
-    background: -moz-linear-gradient(45deg, #6abd46 0%, #0ff9cF 100%);
-    /* ff3.6+ */
-
-    background: -webkit-gradient(linear, left bottom, right top, color-stop(0%, #6abd46), color-stop(100%, #0ff9cF));
-    /* safari4+,chrome */
-
-    background: -webkit-linear-gradient(45deg, #6abd46 0%, #0ff9cF 100%);
-    /* safari5.1+,chrome10+ */
-
-    background: -o-linear-gradient(45deg, #6abd46 0%, #0ff9cF 100%);
-    /* opera 11.10+ */
-
-    background: -ms-linear-gradient(45deg, #6abd46 0%, #0ff9cF 100%);
-    /* ie10+ */
-
-    background: linear-gradient(45deg, #6abd46 0%, #0ff9cF 100%);
-    /* w3c */
-
-    /*filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#0ff9cF', endColorstr='#6abd46', GradientType=1);
-    /* ie6-9 */
+/* features
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.features{
+  color: $Verde;
 }
-.fondoverde {background: $Verde;}
+/* features2
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.features2{
+  color: #fff;
+}
+/* credits
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.credits{
+  color: $Verde;
+}
+
+
 
 /* Values
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
@@ -94,7 +89,7 @@
     padding-bottom: 12rem;
     text-align: left;
     height: 165px;
-      color: #fff;
+
   }
   .hero-heading {
     font-size: 2.4rem;
@@ -179,3 +174,29 @@
   padding: 5rem 0 5rem;
 
 }
+  .thin{
+    font-weight: 100;
+  }
+.gradient {
+    background: -moz-linear-gradient(45deg, #6abd46 0%, #0ff9cF 100%);
+    /* ff3.6+ */
+
+    background: -webkit-gradient(linear, left bottom, right top, color-stop(0%, #6abd46), color-stop(100%, #0ff9cF));
+    /* safari4+,chrome */
+
+    background: -webkit-linear-gradient(45deg, #6abd46 0%, #0ff9cF 100%);
+    /* safari5.1+,chrome10+ */
+
+    background: -o-linear-gradient(45deg, #6abd46 0%, #0ff9cF 100%);
+    /* opera 11.10+ */
+
+    background: -ms-linear-gradient(45deg, #6abd46 0%, #0ff9cF 100%);
+    /* ie10+ */
+
+    background: linear-gradient(45deg, #6abd46 0%, #0ff9cF 100%);
+    /* w3c */
+
+    /*filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#0ff9cF', endColorstr='#6abd46', GradientType=1);
+    /* ie6-9 */
+}
+.fondoverde {background: $Verde;}

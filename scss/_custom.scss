@@ -160,10 +160,10 @@
 }
 
 /* centra verticale */
- .section {
+ .section, .row {
   position: relative;
 }
-.container {
+.container, img {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -172,7 +172,6 @@
  /* footer section*/
 .footer_section{
   padding: 5rem 0 5rem;
-
 }
   .thin{
     font-weight: 100;
@@ -200,3 +199,27 @@
     /* ie6-9 */
 }
 .fondoverde {background: $Verde;}
+.logo {
+  z-index: 10;
+   width: 18%;
+   height: auto;
+}
+
+/* youtube responsive */
+// .rwd-video {
+//   height: 0;
+//   overflow: hidden;
+//   padding-bottom: 56.25%;
+//   padding-top: 30px;
+//   position: relative;
+// }
+// .rwd-video iframe,
+// .rwd-video object,
+// .rwd-video embed {
+//   height: 100%;
+//   left: 0;
+//   position: absolute;
+//   top: 0;
+//   width: 100%;
+// }
+#lang-switch{height: 20%; width: auto;}

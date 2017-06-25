@@ -22,11 +22,26 @@ module.exports = function(grunt) {
                     nospawn: true
                 }
             }
+        },
+        browserSync: {
+            dev: {
+                bsFiles: {
+                    src: [
+                        'css/*.css',
+                        '*.html'
+                    ]
+                },
+                options: {
+                    watchTask: true,
+                    server: './'
+                }
+            }
         }
     });
 
     grunt.loadNpmTasks('grunt-contrib-sass');
     grunt.loadNpmTasks('grunt-contrib-watch');
     grunt.loadNpmTasks('grunt-sass');
-    grunt.registerTask('default', ['sass', 'watch']);
+    grunt.loadNpmTasks('grunt-browser-sync');
+    grunt.registerTask('default', ['browserSync', 'sass', 'watch']);
 };

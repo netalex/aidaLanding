@@ -7,7 +7,7 @@
 /* Sections
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 .section {
-  padding: 8rem 0 7rem;
+  padding: 12rem 0 11rem;
   text-align: center;
 }
 .section-heading,
@@ -178,6 +178,7 @@
   }
    .grosso{font-weight:800;}
 .gradient {
+    div{color: #fff}
     background: -moz-linear-gradient(45deg, #6abd46 0%, #0ff9cF 100%);
     /* ff3.6+ */
 
@@ -200,6 +201,7 @@
     /* ie6-9 */
 }
 .gradient-white {
+    div{color: $Verde}
     background: -moz-linear-gradient(45deg, #fff 0%, #fdfbfb 100%);
     /* ff3.6+ */
 
@@ -223,7 +225,7 @@
 }
 
 .fondoverde {background: $Verde;}
-.logo {
+.firstlogo {
   z-index: 10;
    width: 18%;
    height: auto;
@@ -247,3 +249,38 @@
 //   width: 100%;
 // }
 .ita{display: none;}
+.firstlogo{display: none;}
+
+.deckbox{
+    // border: .2rem $Verde solid;
+}
+.deck{
+  position: relative;
+  .otherlogos{
+        margin-left: 1.2rem;
+    display:block;
+    overflow:hidden;
+
+// left: 0;
+border-radius: 25px;
+     float: right;
+  height: 200%;
+  width: auto;
+  position: absolute;
+  }
+  h6{
+text-align: right;
+    position: relative;
+    display: inline;
+    visibility: hidden;
+  }
+}
+.row{
+  margin-top:3rem;
+  // padding-bottom:3rem;
+}
+article {
+      margin: 0 18%;
+    text-align: justify;
+    p{margin:0;}
+}
